@@ -19,6 +19,7 @@ public class MyFirstStepDef {
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
+		System.out.println("--> Opening URL");
 	}
 	
 	@When("^User enters user first name$")
