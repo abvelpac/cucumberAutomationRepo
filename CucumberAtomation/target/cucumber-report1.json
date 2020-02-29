@@ -1,0 +1,212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#\"Background:\" is used to avoid duplicate steps present in the feature file"
+          }
+        ],
+        "line": 5,
+        "name": "common login steeps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24558923700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "BackgroundSD.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Validate First Name field11",
+        "description": "",
+        "id": "create-account-of-facebook1;validate-first-name-field11",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1562608300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1371918800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User checks user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.user_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 892637800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "BackgroundSD.close_broser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#\"Background:\" is used to avoid duplicate steps present in the feature file"
+          }
+        ],
+        "line": 5,
+        "name": "common login steeps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15340375600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "BackgroundSD.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate create user multiple fields12",
+        "description": "",
+        "id": "create-account-of-facebook1;validate-create-user-multiple-fields12",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1146663600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters user \"Ryan\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1213257800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user \"Jack\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jack",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.user_enters_user_surname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040349700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User checks user \"Ryan\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 18
+                }
+              ],
+              "location": "BackgroundSD.user_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1044691400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Mobile field should be blank",
+            "match": {
+              "location": "BackgroundSD.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 1139083700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "BackgroundSD.close_broser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook1",
+    "description": "As a user you need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook1",
+    "keyword": "Feature",
+    "uri": "BackgroundFF.feature"
+  }
+]

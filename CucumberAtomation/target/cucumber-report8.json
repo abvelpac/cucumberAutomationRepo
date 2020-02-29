@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate First Name field101",
+        "description": "",
+        "id": "create-account-of-facebook10;validate-first-name-field101",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20013648000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "ParametrizationSD.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1188695400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user \"David\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "ParametrizationSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121927700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks user \"David\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 18
+                }
+              ],
+              "location": "ParametrizationSD.user_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 946659500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "ParametrizationSD.close_broser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Validate create user multiple fields102",
+        "description": "",
+        "id": "create-account-of-facebook10;validate-create-user-multiple-fields102",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18635199700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "ParametrizationSD.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1205166700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters user \"Ryan\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 18
+                }
+              ],
+              "location": "ParametrizationSD.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1229351800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters user \"Jack\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jack",
+                  "offset": 18
+                }
+              ],
+              "location": "ParametrizationSD.user_enters_user_surname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1057382700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User checks user \"Ryan\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ryan",
+                  "offset": 18
+                }
+              ],
+              "location": "ParametrizationSD.user_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1047931000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Mobile field should be blank",
+            "match": {
+              "location": "ParametrizationSD.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 964965000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close browser",
+            "match": {
+              "location": "ParametrizationSD.close_broser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook10",
+    "description": "As a user you need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook10",
+    "keyword": "Feature",
+    "uri": "ParametrizationFF.feature"
+  }
+]

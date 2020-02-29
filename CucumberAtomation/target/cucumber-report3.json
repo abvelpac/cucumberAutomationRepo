@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validate create user multiple fields31",
+        "description": "",
+        "id": "create-account-of-facebook3;validate-create-user-multiple-fields31",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18199362300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "DataTableSD.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2550434000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter following data",
+            "match": {
+              "location": "DataTableSD.enter_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "UserSurname",
+                  "Mobile"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Hanks",
+                  "1234"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Jack",
+                  "Daniel",
+                  "5678"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Create account of Facebook3",
+    "description": "As a user you need to open facebook home page and do the validations",
+    "id": "create-account-of-facebook3",
+    "keyword": "Feature",
+    "uri": "DataTableFF.feature"
+  }
+]
